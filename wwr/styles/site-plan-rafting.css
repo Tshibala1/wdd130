@@ -1,4 +1,4 @@
-@import url(https://fonts.google.com/?query=serif);
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
 :root {
     --primary-color: #687351;
     --secondary-color: #9ba17f;
