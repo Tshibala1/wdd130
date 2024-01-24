@@ -9,9 +9,9 @@
     --paragraph-font: open sans;
 
     --nav-background-color: #191d32;
-    --nav-link-color: #282f44;
-    --nav-hover-link-color: #453a49;
-    --nav-hover-background-color: #6d3b47;
+    --nav-link-color: #e8e4db;
+    --nav-hover-link-color: #191d32;
+    --nav-hover-background-color: #e8e4db;
 }
 
 body {
