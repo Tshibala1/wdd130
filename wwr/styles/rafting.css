@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+  :root {
+    --heading-font: serif;
+    --paragraph-font: open sans;
+
+    --primary-color: #687351;
+    --secondary-color: #9ba17f;
+    --accent1-color: #e8e4db;
+    
+}
+
+h1, h2 {
+    color:var(--primary-color);
+}
+a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+ .hero h1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    
+
+} 
+.hero article {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: var(--secondary-color);
+    padding: 10px;
+    opacity: 0.8;
+   
+}
+
+.hero img {
+    display:block;
+    width: 100%;
+    height: auto;
+}
+
+.hero article img {
+    float: right;
+}
+     
