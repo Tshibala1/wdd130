@@ -8,7 +8,47 @@
     --accent1-color: #e8e4db;
     
 }
+header {
+    margin: 1rem auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid black;
+    max-width: 1000px;
+    
+}
 
+.logo img {
+    margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+    padding: 2px;
+}
+
+.navigation {
+    display: flex;
+	list-style: none;
+    justify-content: space-evenly;
+}
+
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a:hover {
+	color: blue;
+	font-weight: 700;
+	text-decoration: navajowhite;
+}
 h1, h2 {
     color:var(--primary-color);
 }
@@ -45,4 +85,55 @@ a {
 .hero article img {
     float: right;
 }
-     
+
+.history {
+    display: grid;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    justify-content: space-around;
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    justify-content: ;
+    
+    
+}
+
+footer img {
+    height: 30px;
+    margin-left: 10px;  
+   
+
+  }
+
+  figure {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5 1fr);
+    
+    
+  }
+
+  img {
+    display: grid;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: center;
+    justify-content: space-evenly;
+  }
+  
+  figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+  }
+
+  
+
+  
