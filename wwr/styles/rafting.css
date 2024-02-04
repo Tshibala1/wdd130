@@ -59,17 +59,22 @@ a {
 .hero {
     position: relative;
 }
- .hero h1 {
+ /* .hero h1 {
     position: absolute;
     top: 50px;
-    left: 50px;
-    
+    width: 100%;
+    background-color: #3e3e3e;
+    padding: 1em 0;
+    color: #ededed;
+    opacity: .6;
+    justify-content: center; */
 
 } 
 .hero article {
     position: absolute;
-    bottom: 20px;
+    top: 200px;
     right: 20px;
+    left: 20px;
     background-color: var(--secondary-color);
     padding: 10px;
     opacity: 0.8;
@@ -82,8 +87,15 @@ a {
     height: auto;
 }
 
-.hero article img {
+article img {
     float: right;
+    
+}
+
+main {
+    max-width: 100%;
+    margin: 0 auto;
+
 }
 
 .history {
@@ -96,9 +108,10 @@ a {
 }
 
 footer {
-    display: flex;
-    justify-content: flex-end;
-    justify-content: ;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    max-width: 800px;
+    margin: 0 auto;
     
     
 }
@@ -132,6 +145,12 @@ footer img {
     font: italic smaller sans-serif;
     padding: 3px;
     text-align: center;
+  }
+
+  .sociallinks {
+    display: grid;
+    justify-self: end;
+    grid-template-columns: 2fr 2fr 2fr;
   }
 
   
