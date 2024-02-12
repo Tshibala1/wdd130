@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+:root {
+    --primary-color: #687351;
+    --secondary-color: #9ba17f;
+    --accent1-color: #e8e4db;
+    --accent2-color: #c9c1ae;
+
+    --heading-font: serif;
+    --paragraph-font: open sans;
+
+    --nav-background-color: #191d32;
+    --nav-link-color: #e8e4db;
+    --nav-hover-link-color: #191d32;
+    --nav-hover-background-color: #e8e4db;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
+}
+
+header {  
+    padding:20px;  
+    background-color: var(--accent1-color);
+}
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+form {
+    width: 600px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+    text-align: center;
+    padding: 1rem;
+}
+
+legend {
+    color: blue;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+    
+}
+
+fieldset {
+
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+button {
+    margin: 1rem;
+    background-color: rgba(0, 0, 255, 0.795);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+
+}
