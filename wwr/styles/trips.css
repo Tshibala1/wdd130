@@ -90,11 +90,6 @@ article img {
     
 }
 
-main {
-    max-width: 100%;
-    margin: 0 auto;
-
-}
 
 .history {
     display: grid;
@@ -106,6 +101,7 @@ main {
     justify-content: space-around;
     text-align: center;
     color: #687351;
+    
     
     
 }
@@ -126,30 +122,6 @@ footer img {
    
 
   }
-
-  figure {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    
-    
-  }
-
-  img {
-    display: grid;
-    max-width: 100%;
-    max-height: 100%;
-    justify-content: center;
-    justify-content: space-evenly;
-  }
-  
-  /* figcaption {
-    background-color: #222;
-    color: #fff;
-    font: italic smaller sans-serif;
-    padding: 3px;
-    text-align: center;
-  } */
 
   .sociallinks {
     display: grid;
